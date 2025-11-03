@@ -1,1 +1,8 @@
+@import url("https://use.typekit.net/psr5fgk.css");
+
 @import "tailwindcss";
+
+
+@theme {
+  --default-font-family: "epilogue", sans-serif; 
+}
