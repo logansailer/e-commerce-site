@@ -3,4 +3,4 @@ This project is a responsive, full-stack e-commerce web application built with R
 
 ## Key Features:
 * Frontend: React for a responsive and dynamic user interface.
-* Backend: Node.js and Express for API handling and server-side logic.
+* Backend: Node and Express for API handling and server-side logic.
