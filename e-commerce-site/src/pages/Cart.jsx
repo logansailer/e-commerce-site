@@ -33,7 +33,7 @@ const Cart = () => {
             </span>
           </p>
         </div>
-        <p className="font-semibold flex justify-between mt-6">
+        <p className="font-semibold text-xl flex justify-between mt-6">
           Total <span className="text-xl font-bold">${total}</span>
         </p>
         <PayButton cartItems={productData} />

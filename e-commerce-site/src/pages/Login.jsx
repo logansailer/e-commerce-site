@@ -107,15 +107,24 @@ const Login = () => {
     return (
       <div className="w-4/5 flex flex-col items-center">
         <form className="flex w-2/3 flex-col gap-4 mb-8">
-          <input
-            className="border rounded-md p-1 border-gray-400"
-            placeholder="Email"
-          />
-          <input
-            className="border rounded-md p-1 border-gray-400"
-            placeholder="Password"
-            type="password"
-          />
+          <div className="flex flex-col">
+            <label className="text-sm text-gray-700 mb-1">Email</label>
+            <input
+              type="email"
+              required
+              placeholder="Enter your email"
+              className="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-[#800f00]"
+            />
+          </div>
+          <div className="flex flex-col">
+            <label className="text-sm text-gray-700 mb-1">Password</label>
+            <input
+              type="password"
+              required
+              placeholder="Enter your password"
+              className="border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-[#800f00]"
+            />
+          </div>
           <input
             type="submit"
             value="Log in with Email"
