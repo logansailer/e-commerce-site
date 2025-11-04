@@ -7,8 +7,6 @@ import Login from "./pages/Login";
 import { productsData } from "./api/Api";
 import Product from "./components/Product";
 import ItemCards from "./components/ItemCards";
-import CheckOutSuccess from "./pages/CheckOutSuccess";
-import CheckOutCancel from "./pages/CheckOutCancel";
 
 
 const Layout = () => {
@@ -47,14 +45,6 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login />,
-      },
-      {
-        path: "/checkout-success",
-        element: <CheckOutSuccess />,
-      },
-      {
-        path: "/checkout-cancel",
-        element: <CheckOutCancel />,
       },
     ],
   },
