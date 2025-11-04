@@ -66,71 +66,6 @@
   },
   {
     "id": 2,
-    "title": "Desk Mats",
-    "price": 30,
-    "description": "Deskmats tie a workspace together, blending function and style. They protect your desk, provide a smooth surface for both mouse and keyboard, and add a personal touch that makes your setup feel complete.",
-    "image": "https://massdrop-s3.imgix.net/img_site/shop_by_category/Deskmats-desktop.jpg?auto=format&fm=jpg&fit=crop&w=450&h=450&dpr=1&chromasub=444&q=70",
-    "category": [
-      {
-        "id": 14576456787,
-        "title": "Lunar New Year Desk Mat",
-        "price": 30,
-        "description": "Each New Year brings well wishes, resolutions, and hopes for the future. On this desk mat, we're giving them all some character—or should we say: characters. Celebrating 2025 in true Chinese Zodiac-style, the Lunar New Year Desk Mat carries messages meant to be displayed",
-        "image": "https://massdrop-s3.imgix.net/product-images/lunar-new-year-desk-mat/FP/8a5uioOSkO34OpuykjmQ_PC.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
-      },
-      {
-        "id": 2567885678567,
-        "title": "Eye of Sauron Desk Mat",
-        "price": 45,
-        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
-        "image": "https://massdrop-s3.imgix.net/product-images/drop-the-lord-of-the-rings-eye-of-barad-dur-desk-mat/FP/vPwS7WyQfeRERCKzqEow_PC2.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
-      },
-      {
-        "id": 3856856,
-        "title": "Amatetrasu Desk Mat",
-        "price": 30,
-        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
-        "image": "https://massdrop-s3.imgix.net/product-images/phangkey-amaterasu-deskmat/FP/ew1n1WKjTR6FeDym9GI3_24003-pc.jpg?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
-      },
-      {
-        "id": 423453452346,
-        "title": "Wireless Charging Desk Mat",
-        "price": 50,
-        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
-        "image": "https://massdrop-s3.imgix.net/product-images/statik-taskpad-desk-mat-with-built-in-wireless-charger/FP/dq1thX7Rf6f4pnERMlWg_pc.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
-      },
-      {
-        "id": 545667845675467,
-        "title": "Doom Desk Mat",
-        "price": 45,
-        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
-        "image": "https://massdrop-s3.imgix.net/product-images/drop-doom-the-dark-ages-desk-mat/FP/PAY2hoGvRTeTn2s1TP9i_DOOM_DESK_MAT_2862-copy-pc.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
-      },
-      {
-        "id": 6867583746534,
-        "title": "Mission Control Desk Mat",
-        "price": 25,
-        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
-        "image": "https://massdrop-s3.imgix.net/product-images/drop-bethesda-starfield-desk-mat/FP/9TWYZnL4RguQiDKWPMiw_STARFIELD_DESK_MAT_0549-copy-pc-pdp.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
-      },
-      {
-        "id": 752345653473564,
-        "title": "Good Wishes Desk Mat",
-        "price": 20,
-        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
-        "image": "https://massdrop-s3.imgix.net/product-images/chenyi-good-wishes-stitched-edge-desk-mat/FP/G0voMHKmQPWenwz1LjJu_0564.jpg?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
-      },
-      {
-        "id": 83457645745,
-        "title": "Error 404 Desk Mat",
-        "price": 30,
-        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
-        "image": "https://massdrop-s3.imgix.net/product-images/chenyi-404-error-stitched-edge-desk-mat/FP/WhNrgST3Tw2MpbBge778_pc.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
-      }
-    ]
-  },
-  {
-    "id": 3,
     "title": "Keycaps",
     "price": 50,
     "description": "Keycaps are where performance meets personality. The right set can transform the feel and sound of every keystroke while showcasing your unique aesthetic — making them one of the most expressive upgrades for any keyboard enthusiast.",
@@ -192,6 +127,71 @@
         "price": 15,
         "description": "Premium cut and sew crewneck sweater with own developed pattern featuring a boxy fit, dropped shoulders and added chest measurements for oversized drape under the arms. Densely knitted brushed French terry with uniform and slanted loopbacks lightly brushed for a buttery hand feel. Highest quality Organic cotton. Manufactured in Spain",
         "image": "https://massdrop-s3.imgix.net/product-images/zmkc-pocket-game-console-artisan-keycap/FP/rIWBR6SCq5kYpttx28Q3_pc.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Desk Mats",
+    "price": 30,
+    "description": "Deskmats tie a workspace together, blending function and style. They protect your desk, provide a smooth surface for both mouse and keyboard, and add a personal touch that makes your setup feel complete.",
+    "image": "https://massdrop-s3.imgix.net/img_site/shop_by_category/Deskmats-desktop.jpg?auto=format&fm=jpg&fit=crop&w=450&h=450&dpr=1&chromasub=444&q=70",
+    "category": [
+      {
+        "id": 14576456787,
+        "title": "Lunar New Year Desk Mat",
+        "price": 30,
+        "description": "Each New Year brings well wishes, resolutions, and hopes for the future. On this desk mat, we're giving them all some character—or should we say: characters. Celebrating 2025 in true Chinese Zodiac-style, the Lunar New Year Desk Mat carries messages meant to be displayed",
+        "image": "https://massdrop-s3.imgix.net/product-images/lunar-new-year-desk-mat/FP/8a5uioOSkO34OpuykjmQ_PC.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
+      },
+      {
+        "id": 2567885678567,
+        "title": "Eye of Sauron Desk Mat",
+        "price": 45,
+        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
+        "image": "https://massdrop-s3.imgix.net/product-images/drop-the-lord-of-the-rings-eye-of-barad-dur-desk-mat/FP/vPwS7WyQfeRERCKzqEow_PC2.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
+      },
+      {
+        "id": 3856856,
+        "title": "Amatetrasu Desk Mat",
+        "price": 30,
+        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
+        "image": "https://massdrop-s3.imgix.net/product-images/phangkey-amaterasu-deskmat/FP/ew1n1WKjTR6FeDym9GI3_24003-pc.jpg?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
+      },
+      {
+        "id": 423453452346,
+        "title": "Wireless Charging Desk Mat",
+        "price": 50,
+        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
+        "image": "https://massdrop-s3.imgix.net/product-images/statik-taskpad-desk-mat-with-built-in-wireless-charger/FP/dq1thX7Rf6f4pnERMlWg_pc.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
+      },
+      {
+        "id": 545667845675467,
+        "title": "Doom Desk Mat",
+        "price": 45,
+        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
+        "image": "https://massdrop-s3.imgix.net/product-images/drop-doom-the-dark-ages-desk-mat/FP/PAY2hoGvRTeTn2s1TP9i_DOOM_DESK_MAT_2862-copy-pc.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
+      },
+      {
+        "id": 6867583746534,
+        "title": "Mission Control Desk Mat",
+        "price": 25,
+        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
+        "image": "https://massdrop-s3.imgix.net/product-images/drop-bethesda-starfield-desk-mat/FP/9TWYZnL4RguQiDKWPMiw_STARFIELD_DESK_MAT_0549-copy-pc-pdp.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
+      },
+      {
+        "id": 752345653473564,
+        "title": "Good Wishes Desk Mat",
+        "price": 20,
+        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
+        "image": "https://massdrop-s3.imgix.net/product-images/chenyi-good-wishes-stitched-edge-desk-mat/FP/G0voMHKmQPWenwz1LjJu_0564.jpg?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
+      },
+      {
+        "id": 83457645745,
+        "title": "Error 404 Desk Mat",
+        "price": 30,
+        "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together — because every great setup deserves a solid foundation.",
+        "image": "https://massdrop-s3.imgix.net/product-images/chenyi-404-error-stitched-edge-desk-mat/FP/WhNrgST3Tw2MpbBge778_pc.png?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70"
       }
     ]
   }

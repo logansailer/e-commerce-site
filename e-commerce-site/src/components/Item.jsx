@@ -20,7 +20,7 @@ const Item = ({ item }) => {
   };
 
   return (
-    <div className="group h-full w-full flex flex-col items-center">
+    <div className="group hover:shadow-lg h-full w-full flex flex-col items-center">
       <div onClick={handleClick} className="group cursor-pointer">
         <div className="cursor-pointer overflow-hidden">
           <img
