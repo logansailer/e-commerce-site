@@ -1,30 +1,14 @@
 import { googleDark } from "../assets";
-import { useDispatch } from "react-redux";
-import { addUser, removeUser } from "../redux/keebSlice";
-import { useSelector } from "react-redux";
 
 const Login = () => {
-  const userInfo = useSelector((state) => state.keeb.userInfo);
+  const handleGoogleLogin = (e) => {};
 
-  const handleGoogleLogin = (e) => {
-  };
+  const handleCreateAccount = (e) => {};
 
-  const handleCreateAccount = (e) => {
-  };
-
-  const handleSignOut = () => {
-  };
+  const handleSignOut = () => {};
 
   const SignInDisplay = () => {
-    return userInfo ? (
-      <button
-        onClick={handleSignOut}
-        className="bg-black text-white text-sm py-3 px-8 tracking-wide 
-        rounded-md hover:bg-[#006937] duration-300"
-      >
-        sign out
-      </button>
-    ) : (
+    return (
       <div className="w-4/5 flex flex-col items-center">
         <form className="flex w-2/3 flex-col gap-4 mb-8">
           <input
@@ -55,6 +39,10 @@ const Login = () => {
             or create an account
           </button>
         </div>
+        <p className="mt-3 text-sm">
+          *by creating an account, you can save your cart details and more easily
+          track your orders
+        </p>
       </div>
     );
   };
