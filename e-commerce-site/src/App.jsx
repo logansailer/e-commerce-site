@@ -1,13 +1,16 @@
-import { createBrowserRouter, Outlet, RouterProvider, ScrollRestoration } from "react-router";
+import {
+  createBrowserRouter,
+  Outlet,
+  RouterProvider,
+  ScrollRestoration,
+} from "react-router";
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
-import { productsData } from "./api/Api";
 import Product from "./components/Product";
 import ItemCards from "./components/ItemCards";
-
 
 const Layout = () => {
   return (
@@ -27,8 +30,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
-        loader: productsData,
+        element: <Home />, // removed loader
       },
       {
         path: "/category/:id",
@@ -51,11 +53,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return (
-    <div>
-      <RouterProvider router={router} />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

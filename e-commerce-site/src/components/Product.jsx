@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
-import { useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
+import { useAddToCartMutation } from "../api/api";
 import { useLocation } from "react-router";
-import { addToCart } from "../redux/keebSlice";
 
 const Product = () => {
-  const dispatch = useDispatch();
   const [details, setDetails] = useState({});
   const [quantity, setQuantity] = useState(1);
+  const user = useSelector((state) => state.auth.user);
+  const [addToCart] = useAddToCartMutation();
 
   const location = useLocation();
   useEffect(() => {
@@ -53,18 +54,29 @@ const Product = () => {
               </div>
             </div>
             <button
-              onClick={() =>
-                dispatch(
-                  addToCart({
-                    id: details.id,
-                    title: details.title,
-                    image: details.image,
-                    price: details.price,
-                    quantity: quantity,
-                    description: details.description,
-                  })
-                )
-              }
+              onClick={async () => {
+                if (!user) {
+                  alert("Please log in to add items to your cart.");
+                  return;
+                }
+
+                try {
+                  await addToCart({
+                    username: user.username,
+                    product: {
+                      id: details.id,
+                      title: details.title,
+                      image: details.image,
+                      price: details.price,
+                      quantity: quantity,
+                      description: details.description,
+                    },
+                  }).unwrap();
+                } catch (err) {
+                  console.error(err);
+                  alert("Failed to add item to cart.");
+                }
+              }}
               className="bg-black text-white py-3 px-6 hover:bg-[#800f00] duration-300 active:bg-black"
             >
               add to cart

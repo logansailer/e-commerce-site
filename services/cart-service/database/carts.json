@@ -1,0 +1,15 @@
+{
+    "carts": {
+        "test@gmail.com": [],
+        "test1@gmail.com": [
+            {
+                "id": 3856856,
+                "title": "Amatetrasu Desk Mat",
+                "image": "https://massdrop-s3.imgix.net/product-images/phangkey-amaterasu-deskmat/FP/ew1n1WKjTR6FeDym9GI3_24003-pc.jpg?auto=format&fm=jpg&fit=fill&w=360&h=360&bg=f0f0f0&fill=solid&fill-color=f0f0f0&dpr=1&q=70",
+                "price": 30,
+                "quantity": 1,
+                "description": "Elevate your setup with our soft-touch desk mat, designed for comfort, precision, and style. It provides a smooth surface for effortless mouse gliding, protects your desk from scratches, and ties your whole workspace together \u2014 because every great setup deserves a solid foundation."
+            }
+        ]
+    }
+}

@@ -1,13 +1,19 @@
-import { useState, useEffect } from "react";
 import Products from "../components/Products";
-import { useLoaderData } from "react-router";
+import { useGetProductsQuery } from "../api/api";
 
 const Home = () => {
-  const [products, setProducts] = useState([]);
-  const productData = useLoaderData();
-  useEffect(() => {
-    setProducts(productData.data);
-  }, [productData]);
+  const { data: products, isLoading, error } = useGetProductsQuery();
+
+  if (isLoading)
+    return (
+      <div className="font-titleFont min-h-[calc(100vh-263px)]">Loading...</div>
+    );
+  if (error)
+    return (
+      <div className="font-titleFont min-h-[calc(100vh-263px)]">
+        Error loading products
+      </div>
+    );
 
   return (
     <div className="font-titleFont min-h-[calc(100vh-263px)]">
