@@ -22,9 +22,7 @@ const Cart = () => {
   if (!user)
     return (
       <div className="mx-auto flex max-w-7xl items-center justify-center min-h-[calc(100vh-263px)]">
-        <p className="font-bold text-3xl">
-          Please log in to view your cart.
-        </p>
+        <p className="font-bold text-3xl">Please log in to view your cart.</p>
       </div>
     );
   if (isLoading) return <p>Loading cart...</p>;
